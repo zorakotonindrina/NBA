@@ -1,0 +1,443 @@
+{
+	"info": {
+		"_postman_id": "27a307b6-b239-469e-935c-9ad11d387424",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31308897"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/equipe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/equipe"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/joueur",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/joueur"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/equipe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"nomequipe\": \"Equipe A\",\r\n        \"genre\": 1\r\n    },"
+				},
+				"url": "localhost:8080/equipe"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/equipe/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/equipe/1"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/joueur",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/joueur"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/saison",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/saison"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/joueur",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nomjoueur\": \"Joueur 1C\",\r\n        \"photo\": \"photoc1.jpg\",\r\n        \"datenaissance\": \"1990-05-15\",\r\n        \"genre\": 0,\r\n        \"idequipe\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/joueur"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/saison",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nomjoueur\": \"Joueur 1C\",\r\n        \"photo\": \"photoc1.jpg\",\r\n        \"datenaissance\": \"1990-05-15\",\r\n        \"genre\": 0,\r\n        \"idequipe\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/saison"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/joueur",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nomjoueur\": \"Joueur 1C\",\r\n        \"photo\": \"photoc1.jpg\",\r\n        \"datenaissance\": \"1990-05-15\",\r\n        \"genre\": 0,\r\n        \"idequipe\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/joueur"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/saison/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/saison/5"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/saison",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nomsaison\": \"Saison 2024-2025\",\r\n        \"anneedebut\": 2024,\r\n        \"anneefin\": 2025\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/saison"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/match",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nomsaison\": \"Saison 2024-2025\",\r\n        \"anneedebut\": 2024,\r\n        \"anneefin\": 2025\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/match"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/match",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/match"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/match/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/match/4"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/match/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/match/4"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/actiontype",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/actiontype"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/actiontype",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"idsaison\": 3,\r\n        \"datedebut\": \"2022-01-05T18:00:00\",\r\n        \"datefin\": \"2022-01-05T20:00:00\",\r\n        \"idequipe1\": 3,\r\n        \"idequipe2\": 4,\r\n        \"typematch\": 2\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/actiontype"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/actiontype/7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/actiontype/7"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/actions",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/actions"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/actions/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/actions/2"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/actions/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/actions/2"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/possession",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/possession"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/possession/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/possession/1"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/possession",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idmatch\": 3,\r\n    \"idjoueur\": 10,\r\n    \"tempsdebut\": \"00:10:00\",\r\n    \"tempsfin\": \"00:10:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/possession"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/DetailMatchs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idmatch\": 3,\r\n    \"idjoueur\": 10,\r\n    \"tempsdebut\": \"00:10:00\",\r\n    \"tempsfin\": \"00:10:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/DetailMatchs"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/detailmatchs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idmatch\": 3,\r\n    \"idjoueur\": 10,\r\n    \"tempsdebut\": \"00:10:00\",\r\n    \"tempsfin\": \"00:10:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/detailmatchs"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/detailactions",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idmatch\": 3,\r\n    \"idjoueur\": 10,\r\n    \"tempsdebut\": \"00:10:00\",\r\n    \"tempsfin\": \"00:10:30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/detailactions"
+			},
+			"response": []
+		}
+	]
+}
